@@ -78,23 +78,24 @@
                             <constraint firstItem="hW7-uU-V1y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="dsZ-Vy-YyJ"/>
                             <constraint firstItem="hW7-uU-V1y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="lUr-Rf-eeZ"/>
                             <constraint firstItem="JbI-d2-R7c" firstAttribute="top" secondItem="hW7-uU-V1y" secondAttribute="bottom" constant="15" id="prE-Nm-Dse"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hW7-uU-V1y" secondAttribute="trailing" constant="20" symbolic="YES" id="zEx-f7-1oR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="CODER SWAG" id="2h7-84-K82"/>
                     <connections>
                         <outlet property="tableViewCategory" destination="JbI-d2-R7c" id="g6u-bC-xps"/>
-                        <segue destination="QK4-Mr-FS0" kind="show" id="Oqm-MU-PIq"/>
+                        <segue destination="QK4-Mr-FS0" kind="show" identifier="ProductsViewController" id="Oqm-MU-PIq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="455.19999999999999" y="123.68815592203899"/>
         </scene>
-        <!--Prod-->
+        <!--Products View Controller-->
         <scene sceneID="oRv-Is-D0g">
             <objects>
-                <viewController id="QK4-Mr-FS0" customClass="Prod" sceneMemberID="viewController">
+                <viewController id="QK4-Mr-FS0" customClass="ProductsViewController" customModule="coderswag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FOM-s6-RJI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,7 +116,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="OxT-4L-Uik" customClass="ProductCell" customModule="coderswag" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="OxT-4L-Uik" customClass="ProductCell" customModule="coderswag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="180" height="256"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -180,6 +181,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NKn-um-N5C"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollection" destination="nSX-R5-ziK" id="hdI-JT-ttc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LOa-tv-0VP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

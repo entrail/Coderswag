@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A12C66F1F52109B0078A2A5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12C66E1F52109B0078A2A5 /* Product.swift */; };
+		3A12C6711F5214580078A2A5 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12C6701F5214580078A2A5 /* ProductsViewController.swift */; };
 		3A2B94D51F4F4EB900B83AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B94D41F4F4EB900B83AE8 /* AppDelegate.swift */; };
 		3A2B94D71F4F4EB900B83AE8 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B94D61F4F4EB900B83AE8 /* CategoriesViewController.swift */; };
 		3A2B94DA1F4F4EB900B83AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B94D81F4F4EB900B83AE8 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		3A12C66E1F52109B0078A2A5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3A12C6701F5214580078A2A5 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		3A2B94D11F4F4EB900B83AE8 /* coderswag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coderswag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2B94D41F4F4EB900B83AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A2B94D61F4F4EB900B83AE8 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				3A2B94D61F4F4EB900B83AE8 /* CategoriesViewController.swift */,
+				3A12C6701F5214580078A2A5 /* ProductsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				3A2B94D71F4F4EB900B83AE8 /* CategoriesViewController.swift in Sources */,
 				3A2B94D51F4F4EB900B83AE8 /* AppDelegate.swift in Sources */,
+				3A12C6711F5214580078A2A5 /* ProductsViewController.swift in Sources */,
 				3A2B94EA1F4F53C200B83AE8 /* CategoryCell.swift in Sources */,
 				3AED21471F51F0A70083AAE3 /* ProductCell.swift in Sources */,
 				3A2B94EC1F4F58D600B83AE8 /* Category.swift in Sources */,
