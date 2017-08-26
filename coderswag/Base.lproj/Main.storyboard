@@ -129,7 +129,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devslopes Logo Graphic T-Shirt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuK-dN-0bq">
-                                                    <rect key="frame" x="0.0" y="180" width="180" height="41"/>
+                                                    <rect key="frame" x="3" y="180" width="174" height="41"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="41" id="LJ0-TW-YuP"/>
                                                     </constraints>
@@ -138,7 +138,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 €" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzh-ZU-a2U">
-                                                    <rect key="frame" x="0.0" y="224" width="180" height="21"/>
+                                                    <rect key="frame" x="3" y="224" width="174" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="6JR-50-w4l"/>
                                                     </constraints>
@@ -150,14 +150,14 @@
                                         </view>
                                         <constraints>
                                             <constraint firstItem="NuK-dN-0bq" firstAttribute="top" secondItem="cT7-a5-tqq" secondAttribute="bottom" id="W8k-Ms-nAg"/>
-                                            <constraint firstItem="NuK-dN-0bq" firstAttribute="leading" secondItem="OxT-4L-Uik" secondAttribute="leading" id="YBY-gQ-Lgl"/>
+                                            <constraint firstItem="NuK-dN-0bq" firstAttribute="leading" secondItem="OxT-4L-Uik" secondAttribute="leading" constant="3" id="YBY-gQ-Lgl"/>
                                             <constraint firstAttribute="trailing" secondItem="cT7-a5-tqq" secondAttribute="trailing" id="aej-z7-hiN"/>
                                             <constraint firstItem="bzh-ZU-a2U" firstAttribute="top" secondItem="NuK-dN-0bq" secondAttribute="bottom" constant="3" id="bgV-0D-Lwm"/>
-                                            <constraint firstAttribute="trailing" secondItem="NuK-dN-0bq" secondAttribute="trailing" id="o6S-Y8-dJu"/>
-                                            <constraint firstAttribute="trailing" secondItem="bzh-ZU-a2U" secondAttribute="trailing" id="p4a-P6-wL4"/>
+                                            <constraint firstAttribute="trailing" secondItem="NuK-dN-0bq" secondAttribute="trailing" constant="3" id="o6S-Y8-dJu"/>
+                                            <constraint firstAttribute="trailing" secondItem="bzh-ZU-a2U" secondAttribute="trailing" constant="3" id="p4a-P6-wL4"/>
                                             <constraint firstItem="cT7-a5-tqq" firstAttribute="top" secondItem="OxT-4L-Uik" secondAttribute="top" id="rY2-1J-l1Q"/>
                                             <constraint firstItem="cT7-a5-tqq" firstAttribute="leading" secondItem="OxT-4L-Uik" secondAttribute="leading" id="raV-mo-ozl"/>
-                                            <constraint firstItem="bzh-ZU-a2U" firstAttribute="leading" secondItem="OxT-4L-Uik" secondAttribute="leading" id="y01-Gm-KQc"/>
+                                            <constraint firstItem="bzh-ZU-a2U" firstAttribute="leading" secondItem="OxT-4L-Uik" secondAttribute="leading" constant="3" id="y01-Gm-KQc"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="productImage" destination="cT7-a5-tqq" id="eBZ-qn-mT8"/>
